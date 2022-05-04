@@ -1,0 +1,53 @@
+/* Style inputs with type="text", select elements and textareas */
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px auto 6px auto;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    color: white;
+}
+
+body {
+    background-color: rgb(212, 156, 238);
+    width: auto;
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #0754fa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #002fff;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+    /* top-right-bottom-left */
+    margin: 50px 20px auto 20px;
+    border-radius: 8px;
+    border-color: black;
+    background-color: #7ba9ff;
+    padding: 70px;
+}

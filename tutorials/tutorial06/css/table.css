@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #4AC29A, #BDFFF3);
+}
+
+.modal-content {
+    margin: 12% auto 12% auto;
+    width: 90%;
+    border: 2px double rgb(255, 255, 255);
+}
+
+.font {
+    font-weight: bold;
+}
+
+.bg {
+    background: linear-gradient(90deg, #4AC29A, #BDFFF3);
+    color: #1d1a1a;
+}
+
+.sr {
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.tr {
+    text-align: center;
+}
+
+table tr#ROW1 {
+    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .3);
+}
+
+.backtosite {
+    color: whitesmoke;
+    font-size: large;
+}

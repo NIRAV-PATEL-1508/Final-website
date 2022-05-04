@@ -1,0 +1,26 @@
+label {
+    font-weight: 600;
+    color: #555;
+}
+
+body {
+    background: linear-gradient( #71b7e6, #9b59b6);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border-color: black;
+    border: 4px;
+    background-color: #7ba9ff;
+    /* padding: 70px; */
+    /* display: flexbox;*/
+    max-width: 500px;
+}

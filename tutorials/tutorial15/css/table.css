@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #BDFFF3
+}
+
+.modal-content {
+    margin: 5% auto 15% auto;
+    width: 100%;
+    border: 2px double rgb(255, 255, 255);
+}
+
+.font {
+    font-weight: bold;
+}
+
+.bg {
+    background: linear-gradient(#4AC29A, #BDFFF3);
+    color: #1d1a1a;
+}
+
+.sr {
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.tr {
+    text-align: center;
+}
+
+table tr #ROW1 {
+    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .3);
+}
+
+.backtosite {
+    color: whitesmoke;
+    font-size: large;
+}
